@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "rangav.vscode-thunder-client",
+    "gruntfuggly.todo-tree",
+    "eriklynd.json-tools",
+    "joshuapoehls.json-escaper",
+    "editorconfig.editorconfig",
+    "brunnerh.insert-unicode",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}

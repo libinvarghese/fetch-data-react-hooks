@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+. "$(dirname "$0")/utils/check-staged.sh"
+
+noStage=$(check_staged)
+
+if [ "${noStage}" = "error" ]; then
+  echo "!! Error !!: Please make sure there are no unstaged files \n"
+  exit 0
+fi
+
+pnpm run lint
